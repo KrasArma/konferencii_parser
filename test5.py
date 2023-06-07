@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 from urllib.parse import quote
 import re
-print('Введите полное название конфеленции')
+print('Введите полное название конференции')
 res = input()
 url = 'https://konferencii.ru/list?search%5Bkeywords%5D=' + quote(res)
 print(url)
